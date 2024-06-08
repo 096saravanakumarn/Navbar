@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&display=swap');
+
+.navbar{
+    border: 1px solid rgb(171, 169, 169);
+    width:max(22vw,370px);
+    height: 100vh;
+    font-family: Outfit;
+    transition: 0.5s;
+    border-radius: 0 25px 25px 0;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.img1 p{
+    font-size: 20px;
+    color:rgb(107, 107, 107);
+}
+ .img1 img{
+    width: 30px;
+    padding-left: 10px;
+  
+}
+.img2 {
+    width: 30px;
+    padding-right: 10px;
+    padding-top: 22px;
+    font-size: 25px;
+    color: rgb(107, 107, 107);
+    cursor: pointer;
+}
+.nav{
+    margin-top: 50px;
+}
+.nav p{
+    text-decoration: none;
+    color:  rgb(107, 107, 107);
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav p:hover{
+    color: #878dff;
+}
+.nav hr{
+    border: 1px solid #c5c5c5;
+}
+.navbar-language p{
+    margin-top: 30px;
+    font-size: 19px;
+    text-align: center;
+    color:  rgb(107, 107, 107);
+    cursor: pointer;
+}
+.navbar-appearence p{
+    font-size: 19px;
+    text-align: center;
+    color:  rgb(107, 107, 107);
+    cursor: pointer;
+}
+.navbar-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vw;
+    gap: 3vw;
+    cursor: pointer;
+}
+.navbar-icons{
+   color: rgb(107, 107, 107);
+   font-size: 25px;
+}
+.navbar-appearence{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.toogle{
+    width: 45px;
+    height: 19px;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 20px;
+    cursor: pointer;
+}
+ .round{
+    width: 20px;
+    height: 20px;
+    border: 0.5px solid  rgb(107, 107, 107);
+    background-color: rgb(107, 107, 107);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    bottom: -1px;
+}
+.nav-icons :hover{
+    color: #878dff;
+}
+.nav-div{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nav-bar-icons{
+    position: absolute;
+    right: 22px;
+    display: block;
+    color:  rgb(107, 107, 107);
+    cursor: pointer;
+}
+.nav-bar-icons:hover{
+    color:  #878dff;
+}
+
+.active{
+    display: none;
+}
+.navbar-active{
+    border-radius: 0;
+}
+@media (max-width:540px){
+ 
+}
